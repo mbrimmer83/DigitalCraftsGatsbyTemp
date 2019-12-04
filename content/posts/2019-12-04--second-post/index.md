@@ -7,9 +7,23 @@ author: Matthew Brimmer
 description: An overview on Javascripts Map, Filter, and Reduce array methods
 ---
 
+![Five Coding Bootcamp Questions](./photo.png)
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim suspendisse in est ante. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Platea dictumst quisque sagittis purus. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Eget velit aliquet sagittis id consectetur purus ut. In metus vulputate eu scelerisque felis imperdiet proin fermentum. Eu ultrices vitae auctor eu augue ut. Duis convallis convallis tellus id interdum. Ipsum consequat nisl vel pretium lectus quam. Purus sit amet volutpat consequat mauris nunc congue nisi vitae.
 
-Quis varius quam quisque id diam vel quam elementum. Risus ultricies tristique nulla aliquet enim. Et odio pellentesque diam volutpat commodo sed. Pharetra pharetra massa massa ultricies. Varius quam quisque id diam vel quam elementum pulvinar. Ultrices in iaculis nunc sed augue lacus viverra. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Metus vulputate eu scelerisque felis imperdiet proin. Fames ac turpis egestas maecenas pharetra convallis posuere. Pulvinar mattis nunc sed blandit. In vitae turpis massa sed elementum tempus egestas sed sed. Eget aliquet nibh praesent tristique.
+Quis varius quam quisque id diam vel quam elementum. Risus ultricies tristique nulla aliquet enim. Et odio pellentesque diam volutpat commodo sed. Pharetra pharetra massa massa ultricies. Varius quam quisque id diam vel quam elementum pulvinar. Ultrices in iaculis nunc sed augue lacus viverra. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Metus vulputate eu scelerisque felis imperdiet proin. Fames ac turpis egestas maecenas pharetra convallis posuere. Pulvinar mattis nunc sed blandit. In vitae turpis massa sed elementum tempus egestas sed sed. Eget aliquet nibh praesent tristique.:airplane:
+
+```javascript
+const array = ['filter', 'dont', 'filter', 'filter', 'dont']
+
+const filtered = array.filter(string => string === 'filter')
+
+console.log(filtered)
+// => ['filter', 'filter', 'filter'']
+
+console.log(array)
+// => ['filter', 'dont', 'filter', 'filter', 'dont']
+```
 
 Leo urna molestie at elementum eu facilisis sed odio morbi. Et egestas quis ipsum suspendisse ultrices gravida. Proin libero nunc consequat interdum varius. Eget duis at tellus at urna. Est lorem ipsum dolor sit. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Justo donec enim diam vulputate ut pharetra sit amet. Tristique senectus et netus et malesuada fames ac. Non blandit massa enim nec dui. Pharetra magna ac placerat vestibulum lectus mauris. Diam vel quam elementum pulvinar etiam non quam lacus. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Nibh tortor id aliquet lectus proin. Amet consectetur adipiscing elit pellentesque habitant morbi. Orci sagittis eu volutpat odio. Massa tincidunt dui ut ornare lectus sit amet est placerat. Sapien faucibus et molestie ac. Nibh nisl condimentum id venenatis a condimentum. Non curabitur gravida arcu ac tortor dignissim.
 

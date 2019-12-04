@@ -620,3 +620,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.gallery {
+  width: 75%;
+  margin: 10px 0;
+}
+
+.gallery-container {
+  margin: auto;
+  width: 75%;
+}

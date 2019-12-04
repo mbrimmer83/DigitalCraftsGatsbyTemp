@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 const PostTemplate = props => {
   const {
@@ -13,12 +14,12 @@ const PostTemplate = props => {
   } = props
 
   return (
-    <React.Fragment>
+    <Layout>
       <header>
         <h1>{title}</h1>
       </header>
       <div className="bodytext" dangerouslySetInnerHTML={{ __html: html }} />  
-    </React.Fragment>
+    </Layout>
   )
 }
 
